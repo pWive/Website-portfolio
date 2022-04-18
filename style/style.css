@@ -112,7 +112,9 @@ span {
 
 
 .project-section {
-    margin-bottom: 150px;
+    margin-bottom: 70px;
+    background-color: #e4e5f1;
+    padding: 50px;
 }
 
 .project-cards {
@@ -167,7 +169,7 @@ span {
     flex-wrap: wrap;
     width: 100%;
 
-    margin-bottom: 500px;
+    margin-bottom: 100px;
 }
 
 .icon-container {
@@ -183,4 +185,26 @@ span {
     text-align: center;
     font-size: 18px;
     color: #636066;
+}
+
+/* footer */
+
+.footer-title {
+    font-size: 24px;
+}
+
+.footers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.icon-link {
+    width: 60%;
+}
+
+.icon-link img {
+    width: 40px;
+    height: 40px;
 }
