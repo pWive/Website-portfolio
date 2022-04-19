@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/normalize.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/contact.css">
+    <script src="/script.js" async></script>
+    <title>Contact</title>
+</head>
+<body>
+    
+    <!-- header -->
+
+    <div class="container header-bcg">
+        <header>
+            <h1 class="header-title">My logo<span>.</span></h1>
+            <div class="header-links">
+                <a href="index.html" class="header-link">About Me</a>
+                <a href="/index.html" class="header-link">Project</a>
+                <a href="/index.html" class="header-link">Skills</a>
+                <a href="contact.html" class="header-link">Contact</a>
+            </div>
+        </header>
+    </div>
+    <hr>
+
+    <!-- contact section -->
+
+    <div class="contact-section">
+        <div class="container contact">
+            <form action="/contact" method="POST">
+                <h1>Contact me</h1>
+                <div class="row-name">
+                    <label for="name">
+                        <input type="text" name="name" id="name" placeholder="Name">
+                    </label>
+                    <label for="mail">
+                        <input type="email" name="mail" id="mail" placeholder="E-mail">
+                    </label>
+                </div>
+                <textarea name="message" id="message" placeholder="Message"></textarea>
+                <br>
+                <input type="submit" value="Send" class="button">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

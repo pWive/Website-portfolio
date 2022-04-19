@@ -2,10 +2,14 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 500;
-
+    
     background-color: #f6f5f5
     
 }
@@ -99,7 +103,7 @@ span {
 
     padding: 10px 20px;
     
-    transition: .1s linear;
+    transition: color .8s linear;
 }
 
 .contact-me:hover {
@@ -190,21 +194,8 @@ span {
 /* footer */
 
 .footer-title {
+    padding: 10px;
     font-size: 24px;
-}
 
-.footers {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.icon-link {
-    width: 60%;
-}
-
-.icon-link img {
-    width: 40px;
-    height: 40px;
+    text-align: center;
 }
